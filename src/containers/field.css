@@ -1,0 +1,23 @@
+.cell-bounds {
+  fill: #fff;
+  stroke: #999;
+  cursor: pointer;
+}
+
+.cell-bounds:hover {
+  fill: #ddd;
+}
+
+.cell-bounds--selected {
+  stroke: #0E0;
+}
+
+.cell-x,
+.cell-filled {
+  pointer-events: none;
+}
+
+.cell-x {
+  stroke: #000;
+  stroke-width: 2;
+}
